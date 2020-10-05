@@ -53,6 +53,8 @@ spec:
       - name: ubuntu-20-04
         image: ubuntu:20.04
         imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 80
         command: [ "/bin/bash", "-c" ]
         args:
           - apt-get update;
