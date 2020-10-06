@@ -68,6 +68,7 @@ spec:
             apt-get install curl -y;
             apt-get install dsniff -y;
             apt-get install nginx -y;
+            service nginx restart;
             sleep infinity;
 ---
 apiVersion: v1
